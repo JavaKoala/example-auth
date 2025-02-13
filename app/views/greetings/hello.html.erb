@@ -1,0 +1,15 @@
+<div>
+  <h1 class="font-bold text-4xl">Greetings#hello</h1>
+  <%= link_to t(:sign_out),
+    session_path,
+    data: { "turbo-method": :delete},
+    class: "rounded-md
+            px-3.5 py-1
+            bg-blue-600
+            hover:bg-blue-500
+            text-white
+            inline-block
+            font-medium
+            cursor-pointer"
+  %>
+</div>
