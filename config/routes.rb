@@ -15,5 +15,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "greetings#hello"
 
-  mount Example::Engine::Engine, at: "/example_engine"
+  mount Example::Engine::Engine, at: "/example_engine", constraints: EngineConstraint
 end
