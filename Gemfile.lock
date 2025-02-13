@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/JavaKoala/example-engine.git
+  revision: 3fd86fa554b03dd9ad1e8c9597036d44d0e59bda
+  specs:
+    example-engine (0.1.0)
+      rails (>= 8.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -375,6 +382,7 @@ DEPENDENCIES
   brakeman
   capybara
   debug
+  example-engine!
   importmap-rails
   jbuilder
   kamal
